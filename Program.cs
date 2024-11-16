@@ -12,7 +12,7 @@ serviceCollection.AddTransient<IBancoLocal, BancoLocal>();
 serviceCollection.AddTransient<AluraWebDriver>();
 
 //Executar pesquisa 
-ExecutarRPA(serviceCollection, "rpa");
+ExecutarRPA(serviceCollection, "string");
 
 static void ExecutarRPA(IServiceCollection serviceCollection, string pesquisa)
 {
